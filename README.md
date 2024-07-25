@@ -125,14 +125,14 @@ console.log("7. 깊은 복사된 객체(deepCopy):", );
 ```javascript
 1.
 //배열 API map 활용
-let arr = [10, 20, 30]
+var arr = [10, 20, 30]
 // arr의 각 요소에 10을 곱한 새로운 배열을 생성해주세요
 // 결과 값: [100, 200, 300]을 출력해주세요
 
 
 2.
 //배열 API filter 활용
-let arr = [10, 22, 33]
+var arr = [10, 22, 33]
 // 5의 배수를 찾아 반환해주세요
 // 결과값 [10]을 출력해주세요
  
@@ -143,12 +143,12 @@ const numbers = [5, 10, 15, 20, 25];
 
 
 4.
-let arr = ["banana", "kiwi", "mango", "strawberry", "lime", "orange", "plum", "cherry"];
+var arr = ["banana", "kiwi", "mango", "strawberry", "lime", "orange", "plum", "cherry"];
 // 문자열 길이가 4 이상인 값을 반환하여 출력해주세요
  
  
 5.
-let arr = ["banana", "kiwi", "mango", "strawberry", "lime", "orange", "plum", "cherry"];
+var arr = ["banana", "kiwi", "mango", "strawberry", "lime", "orange", "plum", "cherry"];
 // 요소의 문자열 길이가 홀수인 요소만 반환하여 출력해주세요
  
 
@@ -179,13 +179,13 @@ let arr = ["banana", "kiwi", "mango", "strawberry", "lime", "orange", "plum", "c
 
 &nbsp;
 
-## 5. 함수 체이닝
+## 5. 메소드 체이닝
 
 
 &nbsp;
 
 주어진 학생 객체 배열에서 각 학생의 평균 점수를 계산한 후, 평균이 80점 이상인 학생의 이름만 필터링하여 출력해주세요.
-가능하다면 함수 체이닝으로 풀어주세요 
+가능하다면 메소드 체이닝으로 풀어주세요 
 
 ```javascript
 1.
@@ -202,7 +202,6 @@ const students = [
 2.
 const numbers = [5, 10, 15, 20, 25];
 // 요소에 2를 곱하고, 30 이하인 것들만 반환받아 출력해주세요
-// 메서드 체이닝을 사용해주세요
 // 출력값 : [10, 20, 30]
 
 ```
