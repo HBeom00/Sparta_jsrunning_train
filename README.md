@@ -26,7 +26,6 @@ const obj2 = // obj1을 얕은 복사하는 코드로 작성해주세요
 
 /* 해당값 obj1, obj2의 값을 출력해주세요 */
 
-
 ```
 
 
@@ -92,11 +91,7 @@ let arr = ["banana", "kiwi", "mango", "strawberry", "lime", "orange", "plum", "c
 let arr = ["banana", "kiwi", "mango", "strawberry", "lime", "orange", "plum", "cherry"];
 // 요소의 문자열 길이가 홀수인 요소만 반환하여 출력해주세요
  
-6.
-const numbers = [5, 10, 15, 20, 25];
-// 요소에 2를 곱하고, 30 이하인 것들만 반환받아 출력해주세요
-// 메서드 체이닝을 사용해주세요
-// 출력값 : [10, 20, 30]
+
 ```
 
 
@@ -133,7 +128,7 @@ const numbers = [5, 10, 15, 20, 25];
 가능하다면 함수 체이닝으로 풀어주세요 
 
 ```javascript
-
+1.
 const students = [
   { name: "이재상", scores: [80, 90] },
   { name: "김준현", scores: [90, 95] }
@@ -144,5 +139,10 @@ const students = [
 // 여기에 코드를 작성해주세요
 // 예상 출력: ["이재상", "김준현"]
 
+2.
+const numbers = [5, 10, 15, 20, 25];
+// 요소에 2를 곱하고, 30 이하인 것들만 반환받아 출력해주세요
+// 메서드 체이닝을 사용해주세요
+// 출력값 : [10, 20, 30]
 
 ```
