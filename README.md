@@ -38,7 +38,7 @@ const obj2 = // obj1을 얕은 복사하는 코드로 작성해주세요
 
 function deepCopy(o) {
   var result = {};
-  if (typeof o === "object" && o !== null)
+  if (typeof o === "object" && o !== null)x
     for (i in o) result[i] = deepCopy(o[i]);
   else result = o;
   return result;
@@ -118,7 +118,7 @@ console.log("7. 깊은 복사된 객체(deepCopy):", );
 
 &nbsp;
 
-## 3. 배열 API 활용
+## 4. 배열 API 활용
 
 예시
 
@@ -157,7 +157,7 @@ var arr = ["banana", "kiwi", "mango", "strawberry", "lime", "orange", "plum", "c
 
 &nbsp;
 
-## 4. forEach로 변환해보기
+## 5. forEach로 변환해보기
 
 예시
 ```javascript
@@ -179,7 +179,7 @@ var arr = ["banana", "kiwi", "mango", "strawberry", "lime", "orange", "plum", "c
 
 &nbsp;
 
-## 5. 메소드 체이닝
+## 6. 메소드 체이닝
 
 
 &nbsp;
