@@ -104,14 +104,14 @@ console.log("6. 얕은 복사된 객체(shallowCopy):",);
 console.log("7. 깊은 복사된 객체(deepCopy):", );
 
 /* 1~7번까지 출력값을 출력해보고 적어주세요
-	예 ) 1. true 
-			... 
-			5.  {
-				name : ... ,
-				agae : ... , 
-				skill : ...,
-				....
-			}
+예 ) 1. true 
+	... 
+     5. {
+	  name : ... ,
+          agae : ... , 
+	  skill : ...,
+	  ....
+        }
 */
 
 ```
