@@ -38,7 +38,7 @@ const obj2 = // obj1을 얕은 복사하는 코드로 작성해주세요
 
 function deepCopy(o) {
   var result = {};
-  if (typeof o === "object" && o !== null)x
+  if (typeof o === "object" && o !== null)
     for (i in o) result[i] = deepCopy(o[i]);
   else result = o;
   return result;
